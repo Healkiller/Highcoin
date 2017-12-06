@@ -1,0 +1,9 @@
+Building HighCoin
+
+See doc/readme-qt.rst for instructions on building HighCoin QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of HighCoin.
+
+See doc/build-*.txt for instructions on building highcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of HighCoin.
