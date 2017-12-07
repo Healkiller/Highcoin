@@ -42,7 +42,7 @@ CBigNum bnProofOfWorkLimitTestNet(~uint256(0) >> 16);
 
 unsigned int nTargetSpacing = 60; // 1min
 unsigned int nTargetSpacing_v2 = 2 * 60; //2 minute
-unsigned int nStakeMinAge = 60 * 60 * 2 //2h
+unsigned int nStakeMinAge = 60 * 60 * 2; //2h
 unsigned int nStakeMaxAge = -1; // unlimited
 unsigned int nModifierInterval = 10 * 60; // time to elapse before new modifier is computed
 
@@ -1127,7 +1127,7 @@ int64_t GetProofOfStakeReward(int nHeight, int64_t nCoinAge, int64_t nFees)
 			 
 	        else
             {
-            nSubsidy = nCoinAge * COIN_YEAR_REWARD * 3300 / (365 * 33 + 8)   ;  //60%
+            nSubsidy = nCoinAge * COIN_YEAR_REWARD * 3300 / (365 * 33 + 8);   ;  //60%
             }
 
     if (fDebug && GetBoolArg("-printcreation"))
@@ -2675,7 +2675,7 @@ bool LoadBlockIndex(bool fAllowNew)
         block.nBits    = bnProofOfWorkLimit.GetCompact();
         block.nNonce   = !fTestNet ? 116238 : 116238;
         
-        if (true  && (block.GetHash() != hashGenesisBlock)) {
+        if (false  && (block.GetHash() != hashGenesisBlock)) {
 
                 // This will figure out a valid hash and Nonce if you're
                 // creating a different genesis block:
