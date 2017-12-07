@@ -1048,7 +1048,7 @@ int64_t GetProofOfStakeReward(int nHeight, int64_t nCoinAge, int64_t nFees)
 
             if(nBestHeight <= 1000) 
             {
-            	nSubsidy = nCoinAge * COIN_YEAR_REWARD * 3300000 / (365 * 33 + 8);   //0.06% 
+            	nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 8) * 0;   //0% 
             }
 			else if(nBestHeight <= 20000)
 			 {
@@ -1127,7 +1127,7 @@ int64_t GetProofOfStakeReward(int nHeight, int64_t nCoinAge, int64_t nFees)
 			 
 	        else
             {
-            nSubsidy = nCoinAge * COIN_YEAR_REWARD * 3300 / (365 * 33 + 8);   ;  //60%
+            nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (36500 * 33 + 8) ;   ;  //60%
             }
 
     if (fDebug && GetBoolArg("-printcreation"))
