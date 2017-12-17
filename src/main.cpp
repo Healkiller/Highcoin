@@ -1046,7 +1046,7 @@ int64_t GetProofOfStakeReward(int nHeight, int64_t nCoinAge, int64_t nFees)
 {
     int64_t nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 8);
 
-            if(nBestHeight <= 1000) 
+                  if(nBestHeight <= 1000) 
             {
             	nSubsidy = nCoinAge * COIN_YEAR_REWARD * 3300000 / (365 * 33 + 8);   //0.06% 
             }
@@ -1060,9 +1060,14 @@ int64_t GetProofOfStakeReward(int nHeight, int64_t nCoinAge, int64_t nFees)
 				 nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 8) * 2;   //1200% 
 			 }
 			 
+			 else if(nBestHeight <= 27000)
+			 {
+				 nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 365 * 33 + 8);   //Orphanbug
+			 }
+			 
 			 	else if(nBestHeight <= 60000)
 			 {
-				 nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 365 * 33 + 8);   //6000% 
+				 nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 365 * 33 + 8);   //6000% Pos back
 			 }
 			 
 			 	else if(nBestHeight <= 65000)
@@ -1129,6 +1134,7 @@ int64_t GetProofOfStakeReward(int nHeight, int64_t nCoinAge, int64_t nFees)
             {
             nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (36500 * 33 + 8);   ;  //60%
             }
+
 
     if (fDebug && GetBoolArg("-printcreation"))
         printf("GetProofOfStakeReward(): create=%s nCoinAge=%"PRId64"\n", FormatMoney(nSubsidy).c_str(), nCoinAge);
