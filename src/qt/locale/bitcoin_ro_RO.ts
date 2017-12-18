@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About HighCoin</source>
-        <translation>Despre HighCoin</translation>
+        <source>About highcoin</source>
+        <translation>Despre highcoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;HighCoin&lt;/b&gt; version</source>
-        <translation>Versiune &lt;b&gt;HighCoin&lt;/b&gt;</translation>
+        <source>&lt;b&gt;highcoin&lt;/b&gt; version</source>
+        <translation>Versiune &lt;b&gt;highcoin&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The HighCoin developers</source>
+Copyright © 2014 The highcoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The HighCoin developers</translation>
+Copyright © 2014 The highcoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,8 +65,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your HighCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Acestea sunt adresele HighCoin pentru a primi plăți. Poate doriți sa dați o adresa noua fiecarui expeditor pentru a putea ține evidența la cine efectuează plăti.</translation>
+        <source>These are your highcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Acestea sunt adresele highcoin pentru a primi plăți. Poate doriți sa dați o adresa noua fiecarui expeditor pentru a putea ține evidența la cine efectuează plăti.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -80,8 +80,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a HighCoin address</source>
-        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă HighCoin</translation>
+        <source>Sign a message to prove you own a highcoin address</source>
+        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă highcoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified HighCoin address</source>
-        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă HighCoin</translation>
+        <source>Verify a message to ensure it was signed with a specified highcoin address</source>
+        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă highcoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +263,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="-58"/>
-        <source>HighCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>HighCoin se va inchide pentru a termina procesul de encriptie. Amintiți-vă, criptarea portofelul dumneavoastră nu poate proteja pe deplin monedele dvs. de a fi furate de  infectarea cu malware a computerului.</translation>
+        <source>highcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>highcoin se va inchide pentru a termina procesul de encriptie. Amintiți-vă, criptarea portofelul dumneavoastră nu poate proteja pe deplin monedele dvs. de a fi furate de  infectarea cu malware a computerului.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -377,8 +377,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about HighCoin</source>
-        <translation>Arată informații despre HighCoin</translation>
+        <source>Show information about highcoin</source>
+        <translation>Arată informații despre highcoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -427,13 +427,13 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a HighCoin address</source>
-        <translation>Trimite monede către o adresă HighCoin</translation>
+        <source>Send coins to a highcoin address</source>
+        <translation>Trimite monede către o adresă highcoin</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for HighCoin</source>
-        <translation>Modifică opțiuni de configurare pentru HighCoin</translation>
+        <source>Modify configuration options for highcoin</source>
+        <translation>Modifică opțiuni de configurare pentru highcoin</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -472,8 +472,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="-200"/>
-        <source>HighCoin</source>
-        <translation>HighCoin</translation>
+        <source>highcoin</source>
+        <translation>highcoin</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -482,8 +482,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About HighCoin</source>
-        <translation>Despre HighCoin</translation>
+        <source>&amp;About highcoin</source>
+        <translation>Despre highcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -539,13 +539,13 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>HighCoin client</source>
-        <translation>Clientul HighCoin</translation>
+        <source>highcoin client</source>
+        <translation>Clientul highcoin</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to HighCoin network</source>
-        <translation><numerusform>%n conexiune activă la reteaua HighCoin</numerusform><numerusform>%n conexiuni active la reteaua HighCoin</numerusform><numerusform>%n conexiuni active la reteaua HighCoin</numerusform></translation>
+        <source>%n active connection(s) to highcoin network</source>
+        <translation><numerusform>%n conexiune activă la reteaua highcoin</numerusform><numerusform>%n conexiuni active la reteaua highcoin</numerusform><numerusform>%n conexiuni active la reteaua highcoin</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -659,8 +659,8 @@ Adresa: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid HighCoin address or malformed URI parameters.</source>
-        <translation>URI nu poate fi parsatt! Cauza poate fi o adresa HighCoin invalidă sau parametrii URI malformați.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid highcoin address or malformed URI parameters.</source>
+        <translation>URI nu poate fi parsatt! Cauza poate fi o adresa highcoin invalidă sau parametrii URI malformați.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -719,8 +719,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. HighCoin can no longer continue safely and will quit.</source>
-        <translation>A apărut o eroare fatală. HighCoin nu mai poate continua în condiții de siguranță și va iesi.</translation>
+        <source>A fatal error occurred. highcoin can no longer continue safely and will quit.</source>
+        <translation>A apărut o eroare fatală. highcoin nu mai poate continua în condiții de siguranță și va iesi.</translation>
     </message>
 </context>
 <context>
@@ -891,17 +891,17 @@ Adresa: %4
     </message>
     <message>
         <location line="+317"/>
-        <source>highest</source>
+        <source>HIGHTest</source>
         <translation>cel mai mare</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>high</source>
+        <source>HIGHT</source>
         <translation>mare</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>medium-high</source>
+        <source>medium-HIGHT</source>
         <translation>marime medie</translation>
     </message>
     <message>
@@ -949,7 +949,7 @@ Poate varia +/- 1 Byte pe imput.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Transactions with higher priority get more likely into a block.
+        <source>Transactions with HIGHTer priority get more likely into a block.
 
 This label turns red, if the priority is smaller than &quot;medium&quot;.
 
@@ -1053,8 +1053,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid HighCoin address.</source>
-        <translation>Adresa introdusă &quot;%1&quot; nu este o adresă HighCoin validă</translation>
+        <source>The entered address &quot;%1&quot; is not a valid highcoin address.</source>
+        <translation>Adresa introdusă &quot;%1&quot; nu este o adresă highcoin validă</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1072,8 +1072,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>HighCoin-Qt</source>
-        <translation>HighCoin-Qt</translation>
+        <source>highcoin-Qt</source>
+        <translation>highcoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1145,13 +1145,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start HighCoin after logging in to the system.</source>
-        <translation>Pornește HighCoin imdiat după logarea în sistem</translation>
+        <source>Automatically start highcoin after logging in to the system.</source>
+        <translation>Pornește highcoin imdiat după logarea în sistem</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start HighCoin on system login</source>
-        <translation>$Pornește HighCoin la logarea în sistem</translation>
+        <source>&amp;Start highcoin on system login</source>
+        <translation>$Pornește highcoin la logarea în sistem</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1170,8 +1170,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the HighCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Deschide automat portul pentru cientul HighCoin pe router. Aces lucru este posibil doara daca routerul suporta UPnP si este activat</translation>
+        <source>Automatically open the highcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Deschide automat portul pentru cientul highcoin pe router. Aces lucru este posibil doara daca routerul suporta UPnP si este activat</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1180,8 +1180,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the HighCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Conecteaza la reteaua HighCoin prinr-un proxy SOCKS(ex. cand te conectezi prin Tor)</translation>
+        <source>Connect to the highcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Conecteaza la reteaua highcoin prinr-un proxy SOCKS(ex. cand te conectezi prin Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1255,8 +1255,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting HighCoin.</source>
-        <translation>Limba interfeței utilizator poate fi setat aici. Această setare va avea efect după repornirea HighCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting highcoin.</source>
+        <translation>Limba interfeței utilizator poate fi setat aici. Această setare va avea efect după repornirea highcoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1270,8 +1270,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show HighCoin addresses in the transaction list or not.</source>
-        <translation>Dacă să arate adrese HighCoin din lista de tranzacție sau nu.</translation>
+        <source>Whether to show highcoin addresses in the transaction list or not.</source>
+        <translation>Dacă să arate adrese highcoin din lista de tranzacție sau nu.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1317,8 +1317,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting HighCoin.</source>
-        <translation>Aceasta setare va avea efect dupa repornirea HighCoin.</translation>
+        <source>This setting will take effect after restarting highcoin.</source>
+        <translation>Aceasta setare va avea efect dupa repornirea highcoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1336,8 +1336,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the HighCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informatia afisata poate fi depasita.  Portofel se sincronizează automat cu rețeaua HighCoin după ce se stabilește o conexiune, dar acest proces nu s-a finalizat încă.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the highcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informatia afisata poate fi depasita.  Portofel se sincronizează automat cu rețeaua highcoin după ce se stabilește o conexiune, dar acest proces nu s-a finalizat încă.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1552,8 +1552,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the HighCoin-Qt help message to get a list with possible HighCoin command-line options.</source>
-        <translation>Afișa mesajul de ajutor HighCoin-Qt pentru a obține o listă cu posibile opțiuni de linie de comandă HighCoin.</translation>
+        <source>Show the highcoin-Qt help message to get a list with possible highcoin command-line options.</source>
+        <translation>Afișa mesajul de ajutor highcoin-Qt pentru a obține o listă cu posibile opțiuni de linie de comandă highcoin.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1572,13 +1572,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>HighCoin - Debug window</source>
-        <translation>HighCoin - fereastră depanare</translation>
+        <source>highcoin - Debug window</source>
+        <translation>highcoin - fereastră depanare</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>HighCoin Core</source>
-        <translation>HighCoin Core</translation>
+        <source>highcoin Core</source>
+        <translation>highcoin Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1587,8 +1587,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the HighCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Deschideti fisierul de depanare HighCoin din folderul curent. Acest lucru poate dura cateva secunde pentru fisiere de log mari.</translation>
+        <source>Open the highcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Deschideti fisierul de depanare highcoin din folderul curent. Acest lucru poate dura cateva secunde pentru fisiere de log mari.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1597,8 +1597,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the HighCoin RPC console.</source>
-        <translation>Bine ati venit la consola HighCoin RPC.</translation>
+        <source>Welcome to the highcoin RPC console.</source>
+        <translation>Bine ati venit la consola highcoin RPC.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1756,8 +1756,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a HighCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introduceți o adresă HighCoin(ex:B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a highcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introduceți o adresă highcoin(ex:B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1856,8 +1856,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid HighCoin address</source>
-        <translation>Atenție: Adresă HighCoin invalidă</translation>
+        <source>WARNING: Invalid highcoin address</source>
+        <translation>Atenție: Adresă highcoin invalidă</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1930,8 +1930,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a HighCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introduceți o adresă HighCoin(ex:B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a highcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introduceți o adresă highcoin(ex:B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -1991,8 +1991,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this HighCoin address</source>
-        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă HighCoin</translation>
+        <source>Sign the message to prove you own this highcoin address</source>
+        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă highcoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2023,8 +2023,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified HighCoin address</source>
-        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă HighCoin</translation>
+        <source>Verify the message to ensure it was signed with the specified highcoin address</source>
+        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă highcoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2034,8 +2034,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a HighCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introduceți o adresă HighCoin(ex:B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a highcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introduceți o adresă highcoin(ex:B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2044,8 +2044,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter HighCoin signature</source>
-        <translation>Introduceti semnatura HighCoin</translation>
+        <source>Enter highcoin signature</source>
+        <translation>Introduceti semnatura highcoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2615,8 +2615,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>HighCoin version</source>
-        <translation>Versiune HighCoin</translation>
+        <source>highcoin version</source>
+        <translation>Versiune highcoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2790,18 +2790,18 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="-20"/>
-        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
+        <source>Set maximum size of HIGHT-priority/low-fee transactions in bytes (default: 27000)</source>
         <translation>Setati valoarea maxima a prioritate mare/taxa scazuta in bytes(implicit: 27000)</translation>
     </message>
     <message>
         <location line="+11"/>
-        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <source>Warning: -paytxfee is set very HIGHT! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>Atentie: setarea -paytxfee este foarte ridicata! Aceasta este taxa tranzactiei pe care o vei plati daca trimiti o tranzactie.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong HighCoin will not work properly.</source>
-        <translation>Atentie: Va rugam verificati ca timpul si data calculatorului sunt corete. Daca timpul este gresit HighCoin nu va functiona corect.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong highcoin will not work properly.</source>
+        <translation>Atentie: Va rugam verificati ca timpul si data calculatorului sunt corete. Daca timpul este gresit highcoin nu va functiona corect.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2996,7 +2996,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;HighCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;highcoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, trebuie să configurați o parolă rpc în fișierul de configurare: %s
 Este recomandat să folosiți următoarea parolă generată aleator: rpcuser=highcoinrpc
@@ -3005,7 +3005,7 @@ rpcpassword=%s
 Username-ul și parola NU TREBUIE să fie aceleași.
 Dacă fișierul nu există, creați-l cu drepturi de citire doar de către deținător.
 Este deasemenea recomandat să setați alertnotify pentru a fi notificat de probleme;
-de exemplu: alertnotify=echo %%s | mail -s &quot;HighCoin Alert&quot; admin@foo.com
+de exemplu: alertnotify=echo %%s | mail -s &quot;highcoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3105,8 +3105,8 @@ de exemplu: alertnotify=echo %%s | mail -s &quot;HighCoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
-        <translation>Cifruri acceptabile (implicit: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
+        <source>Acceptable ciphers (default: TLSv1+HIGHT:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
+        <translation>Cifruri acceptabile (implicit: TLSv1+HIGHT:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -3130,13 +3130,13 @@ de exemplu: alertnotify=echo %%s | mail -s &quot;HighCoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  HighCoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s.  highcoin is probably already running.</source>
         <translation>Nu se poate obtine un lock pe directorul de date &amp;s. Blackoin probabil ruleaza deja.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>HighCoin</source>
-        <translation>HighCoin</translation>
+        <source>highcoin</source>
+        <translation>highcoin</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3170,13 +3170,13 @@ de exemplu: alertnotify=echo %%s | mail -s &quot;HighCoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of HighCoin</source>
-        <translation>Eroare la încărcarea wallet.dat: Portofelul necesita o versiune mai noua de HighCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of highcoin</source>
+        <translation>Eroare la încărcarea wallet.dat: Portofelul necesita o versiune mai noua de highcoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart HighCoin to complete</source>
-        <translation>A fost nevoie de rescrierea portofelului: restartați HighCoin pentru a finaliza</translation>
+        <source>Wallet needed to be rewritten: restart highcoin to complete</source>
+        <translation>A fost nevoie de rescrierea portofelului: restartați highcoin pentru a finaliza</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3245,8 +3245,8 @@ de exemplu: alertnotify=echo %%s | mail -s &quot;HighCoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. HighCoin is probably already running.</source>
-        <translation>Imposibil de conectat %s pe acest computer. Cel mai probabil HighCoin ruleaza</translation>
+        <source>Unable to bind to %s on this computer. highcoin is probably already running.</source>
+        <translation>Imposibil de conectat %s pe acest computer. Cel mai probabil highcoin ruleaza</translation>
     </message>
     <message>
         <location line="-97"/>

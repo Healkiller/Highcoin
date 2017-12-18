@@ -30,7 +30,7 @@ public:
     int nCancel;
     std::set<int> setCancel;
     int nMinVer;            // lowest version inclusive
-    int nMaxVer;            // highest version inclusive
+    int nMaxVer;            // HIGHTest version inclusive
     std::set<std::string> setSubVer;  // empty matches all
     int nPriority;
 

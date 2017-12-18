@@ -100,7 +100,7 @@ CalculateParams(Params &params, Bignum N, string aux, uint32_t securityLevel)
 
 	// Compute the accumulator range. The upper range is the largest possible coin commitment value.
 	// The lower range is sqrt(upper range) + 1. Since OpenSSL doesn't have
-	// a square root function we use a slightly higher approximation.
+	// a square root function we use a slightly HIGHTer approximation.
 	params.accumulatorParams.maxCoinValue = params.coinCommitmentGroup.modulus;
 	params.accumulatorParams.minCoinValue = Bignum(2).pow((params.coinCommitmentGroup.modulus.bitSize() / 2) + 3);
 

@@ -109,10 +109,10 @@ Value getworkex(const Array& params, bool fHelp)
         );
 
     if (vNodes.empty())
-        throw JSONRPCError(-9, "HighCoin is not connected!");
+        throw JSONRPCError(-9, "highcoin is not connected!");
 
     if (IsInitialBlockDownload())
-        throw JSONRPCError(-10, "HighCoin is downloading blocks...");
+        throw JSONRPCError(-10, "highcoin is downloading blocks...");
 
     if (pindexBest->nHeight >= LAST_POW_BLOCK_V1 && pindexBest->nHeight < POW_RE_ENABLE)
         throw JSONRPCError(RPC_MISC_ERROR, "No more PoW blocks");
@@ -243,10 +243,10 @@ Value getwork(const Array& params, bool fHelp)
             "If [data] is specified, tries to solve the block and returns true if it was successful.");
 
     if (vNodes.empty())
-        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "HighCoin is not connected!");
+        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "highcoin is not connected!");
 
     if (IsInitialBlockDownload())
-        throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "HighCoin is downloading blocks...");
+        throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "highcoin is downloading blocks...");
 
     if (pindexBest->nHeight >= LAST_POW_BLOCK_V1 && pindexBest->nHeight < POW_RE_ENABLE)
         throw JSONRPCError(RPC_MISC_ERROR, "No more PoW blocks");
@@ -353,7 +353,7 @@ Value getblocktemplate(const Array& params, bool fHelp)
             "getblocktemplate [params]\n"
             "Returns data needed to construct a block to work on:\n"
             "  \"version\" : block version\n"
-            "  \"previousblockhash\" : hash of current highest block\n"
+            "  \"previousblockhash\" : hash of current HIGHTest block\n"
             "  \"transactions\" : contents of non-coinbase transactions that should be included in the next block\n"
             "  \"coinbaseaux\" : data that should be included in coinbase\n"
             "  \"coinbasevalue\" : maximum allowable input to coinbase transaction, including the generation award and transaction fees\n"
@@ -387,10 +387,10 @@ Value getblocktemplate(const Array& params, bool fHelp)
         throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid mode");
 
     if (vNodes.empty())
-        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "HighCoin is not connected!");
+        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "highcoin is not connected!");
 
     if (IsInitialBlockDownload())
-        throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "HighCoin is downloading blocks...");
+        throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "highcoin is downloading blocks...");
 
     if (pindexBest->nHeight >= LAST_POW_BLOCK_V1 && pindexBest->nHeight < POW_RE_ENABLE)
         throw JSONRPCError(RPC_MISC_ERROR, "No more PoW blocks");

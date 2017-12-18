@@ -3,19 +3,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About HighCoin</source>
+        <source>About highcoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;HighCoin&lt;/b&gt; version</source>
+        <source>&lt;b&gt;highcoin&lt;/b&gt; version</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The HighCoin developers</source>
+Copyright © 2014 The highcoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -62,7 +62,7 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your HighCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your highcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -77,7 +77,7 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a HighCoin address</source>
+        <source>Sign a message to prove you own a highcoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -92,7 +92,7 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified HighCoin address</source>
+        <source>Verify a message to ensure it was signed with a specified highcoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -260,7 +260,7 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="-58"/>
-        <source>HighCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>highcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -374,7 +374,7 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about HighCoin</source>
+        <source>Show information about highcoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -424,12 +424,12 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a HighCoin address</source>
+        <source>Send coins to a highcoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for HighCoin</source>
+        <source>Modify configuration options for highcoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -469,7 +469,7 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="-200"/>
-        <source>HighCoin</source>
+        <source>highcoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -479,7 +479,7 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About HighCoin</source>
+        <source>&amp;About highcoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -536,12 +536,12 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>HighCoin client</source>
+        <source>highcoin client</source>
         <translation type="unfinished"/>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to HighCoin network</source>
+        <source>%n active connection(s) to highcoin network</source>
         <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
@@ -656,7 +656,7 @@ Inscriptio: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid HighCoin address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid highcoin address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -716,7 +716,7 @@ Inscriptio: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. HighCoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. highcoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -888,17 +888,17 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+317"/>
-        <source>highest</source>
+        <source>HIGHTest</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>high</source>
+        <source>HIGHT</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>medium-high</source>
+        <source>medium-HIGHT</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -942,7 +942,7 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>Transactions with higher priority get more likely into a block.
+        <source>Transactions with HIGHTer priority get more likely into a block.
 
 This label turns red, if the priority is smaller than &quot;medium&quot;.
 
@@ -1036,7 +1036,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid HighCoin address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid highcoin address.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1055,7 +1055,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>HighCoin-Qt</source>
+        <source>highcoin-Qt</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1128,12 +1128,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start HighCoin after logging in to the system.</source>
+        <source>Automatically start highcoin after logging in to the system.</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start HighCoin on system login</source>
+        <source>&amp;Start highcoin on system login</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1153,7 +1153,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the HighCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the highcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1163,7 +1163,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the HighCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the highcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1238,7 +1238,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting HighCoin.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting highcoin.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1253,7 +1253,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show HighCoin addresses in the transaction list or not.</source>
+        <source>Whether to show highcoin addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1300,7 +1300,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting HighCoin.</source>
+        <source>This setting will take effect after restarting highcoin.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1319,7 +1319,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the HighCoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the highcoin network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1535,7 +1535,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the HighCoin-Qt help message to get a list with possible HighCoin command-line options.</source>
+        <source>Show the highcoin-Qt help message to get a list with possible highcoin command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1555,12 +1555,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>HighCoin - Debug window</source>
+        <source>highcoin - Debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+25"/>
-        <source>HighCoin Core</source>
+        <source>highcoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1570,7 +1570,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the HighCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the highcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1580,7 +1580,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the HighCoin RPC console.</source>
+        <source>Welcome to the highcoin RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1739,7 +1739,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a HighCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a highcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1839,7 +1839,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid HighCoin address</source>
+        <source>WARNING: Invalid highcoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1913,7 +1913,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a HighCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a highcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1974,7 +1974,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this HighCoin address</source>
+        <source>Sign the message to prove you own this highcoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2006,7 +2006,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified HighCoin address</source>
+        <source>Verify the message to ensure it was signed with the specified highcoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2017,7 +2017,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a HighCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a highcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2027,7 +2027,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter HighCoin signature</source>
+        <source>Enter highcoin signature</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2598,7 +2598,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>HighCoin version</source>
+        <source>highcoin version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2773,17 +2773,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-20"/>
-        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
+        <source>Set maximum size of HIGHT-priority/low-fee transactions in bytes (default: 27000)</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+11"/>
-        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <source>Warning: -paytxfee is set very HIGHT! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>Monitio: -paytxfee constitutum valde magnum!  Hoc est merces transactionis solves si mittis transactionem.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong HighCoin will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong highcoin will not work properly.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2978,7 +2978,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;HighCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;highcoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -3079,7 +3079,7 @@ for example: alertnotify=echo %%s | mail -s &quot;HighCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
+        <source>Acceptable ciphers (default: TLSv1+HIGHT:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3104,12 +3104,12 @@ for example: alertnotify=echo %%s | mail -s &quot;HighCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  HighCoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s.  highcoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="-98"/>
-        <source>HighCoin</source>
+        <source>highcoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3144,12 +3144,12 @@ for example: alertnotify=echo %%s | mail -s &quot;HighCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of HighCoin</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of highcoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart HighCoin to complete</source>
+        <source>Wallet needed to be rewritten: restart highcoin to complete</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3219,7 +3219,7 @@ for example: alertnotify=echo %%s | mail -s &quot;HighCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. HighCoin is probably already running.</source>
+        <source>Unable to bind to %s on this computer. highcoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About HighCoin</source>
-        <translation>Sobre HighCoin</translation>
+        <source>About highcoin</source>
+        <translation>Sobre highcoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;HighCoin&lt;/b&gt; version</source>
-        <translation>versió &lt;b&gt;HighCoin&lt;/b&gt;</translation>
+        <source>&lt;b&gt;highcoin&lt;/b&gt; version</source>
+        <translation>versió &lt;b&gt;highcoin&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The HighCoin developers</source>
+Copyright © 2014 The highcoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The HighCoin developers</translation>
+Copyright © 2014 The highcoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,8 +60,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your HighCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Aquestes són les teves adreces de HighCoin per rebre els pagaments. És possible que vulgueu donar una diferent a cada remitent per a poder realitzar un seguiment de qui li está pagant.</translation>
+        <source>These are your highcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Aquestes són les teves adreces de highcoin per rebre els pagaments. És possible que vulgueu donar una diferent a cada remitent per a poder realitzar un seguiment de qui li está pagant.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a HighCoin address</source>
-        <translation>Signar un missatge per demostrar que és propietari d&apos;una adreça HighCoin</translation>
+        <source>Sign a message to prove you own a highcoin address</source>
+        <translation>Signar un missatge per demostrar que és propietari d&apos;una adreça highcoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified HighCoin address</source>
-        <translation>Comproveu el missatge per assegurar-se que es va signar amb una adreça HighCoin especificada.</translation>
+        <source>Verify a message to ensure it was signed with a specified highcoin address</source>
+        <translation>Comproveu el missatge per assegurar-se que es va signar amb una adreça highcoin especificada.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,8 +258,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-58"/>
-        <source>HighCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>HighCoin tancarà ara per acabar el procés de xifrat. Recordeu que l&apos;encriptació del seu moneder no pot protegir completament les seves monedes de ser robades pel malware que pugui infectar al seu equip.</translation>
+        <source>highcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>highcoin tancarà ara per acabar el procés de xifrat. Recordeu que l&apos;encriptació del seu moneder no pot protegir completament les seves monedes de ser robades pel malware que pugui infectar al seu equip.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -372,8 +372,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about HighCoin</source>
-        <translation>Mostra informació sobre HighCoin</translation>
+        <source>Show information about highcoin</source>
+        <translation>Mostra informació sobre highcoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -422,13 +422,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a HighCoin address</source>
-        <translation>Enviar monedes a una adreça HighCoin</translation>
+        <source>Send coins to a highcoin address</source>
+        <translation>Enviar monedes a una adreça highcoin</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for HighCoin</source>
-        <translation>Modificar les opcions de configuració per a HighCoin</translation>
+        <source>Modify configuration options for highcoin</source>
+        <translation>Modificar les opcions de configuració per a highcoin</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -467,8 +467,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-200"/>
-        <source>HighCoin</source>
-        <translation>HighCoin</translation>
+        <source>highcoin</source>
+        <translation>highcoin</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -477,8 +477,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About HighCoin</source>
-        <translation>&amp;Sobre HighCoin</translation>
+        <source>&amp;About highcoin</source>
+        <translation>&amp;Sobre highcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -534,13 +534,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>HighCoin client</source>
-        <translation>Client HighCoin</translation>
+        <source>highcoin client</source>
+        <translation>Client highcoin</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to HighCoin network</source>
-        <translation><numerusform>%n conexió activa a la xarxa HighCoin</numerusform><numerusform>%n conexions actives a la xarxa HighCoin</numerusform></translation>
+        <source>%n active connection(s) to highcoin network</source>
+        <translation><numerusform>%n conexió activa a la xarxa highcoin</numerusform><numerusform>%n conexions actives a la xarxa highcoin</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -650,8 +650,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid HighCoin address or malformed URI parameters.</source>
-        <translation>l&apos;URI no es pot analitzar! Això pot ser causat per una adreça HighCoin no vàlida o paràmetres URI malformats.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid highcoin address or malformed URI parameters.</source>
+        <translation>l&apos;URI no es pot analitzar! Això pot ser causat per una adreça highcoin no vàlida o paràmetres URI malformats.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -710,8 +710,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. HighCoin can no longer continue safely and will quit.</source>
-        <translation>S&apos;ha produït un error fatal. HighCoin ja no pot continuar de forma segura i es tancarà.</translation>
+        <source>A fatal error occurred. highcoin can no longer continue safely and will quit.</source>
+        <translation>S&apos;ha produït un error fatal. highcoin ja no pot continuar de forma segura i es tancarà.</translation>
     </message>
 </context>
 <context>
@@ -882,17 +882,17 @@ Address: %4
     </message>
     <message>
         <location line="+317"/>
-        <source>highest</source>
+        <source>HIGHTest</source>
         <translation>El més alt</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>high</source>
+        <source>HIGHT</source>
         <translation>Alt</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>medium-high</source>
+        <source>medium-HIGHT</source>
         <translation>mig-alt</translation>
     </message>
     <message>
@@ -940,7 +940,7 @@ Pot variar + / - 1 Byte per entrada.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Transactions with higher priority get more likely into a block.
+        <source>Transactions with HIGHTer priority get more likely into a block.
 
 This label turns red, if the priority is smaller than &quot;medium&quot;.
 
@@ -1044,8 +1044,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid HighCoin address.</source>
-        <translation>La direcció introduïda &quot;%1&quot; no és una adreça HighCoin vàlida.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid highcoin address.</source>
+        <translation>La direcció introduïda &quot;%1&quot; no és una adreça highcoin vàlida.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1063,8 +1063,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>HighCoin-Qt</source>
-        <translation>HighCoin-Qt</translation>
+        <source>highcoin-Qt</source>
+        <translation>highcoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1136,13 +1136,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start HighCoin after logging in to the system.</source>
-        <translation>Inicia automàticament HighCoin després d&apos;entrar en el sistema.</translation>
+        <source>Automatically start highcoin after logging in to the system.</source>
+        <translation>Inicia automàticament highcoin després d&apos;entrar en el sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start HighCoin on system login</source>
-        <translation>&amp;Iniciar HighCoin amb l&apos;inici de sessió</translation>
+        <source>&amp;Start highcoin on system login</source>
+        <translation>&amp;Iniciar highcoin amb l&apos;inici de sessió</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1161,8 +1161,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the HighCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Obrir automàticament el port de client HighCoin en el router. Això només funciona quan el router és compatible amb UPnP i està habilitat.</translation>
+        <source>Automatically open the highcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Obrir automàticament el port de client highcoin en el router. Això només funciona quan el router és compatible amb UPnP i està habilitat.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1171,8 +1171,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the HighCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connecteu-vos a la xarxa HighCoin través d&apos;un proxy SOCKS (per exemple, quan es connecta a través de Tor).</translation>
+        <source>Connect to the highcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connecteu-vos a la xarxa highcoin través d&apos;un proxy SOCKS (per exemple, quan es connecta a través de Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1246,8 +1246,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting HighCoin.</source>
-        <translation>L&apos;idioma de la interfície d&apos;usuari es pot configurar aquí. Aquesta configuració s&apos;aplicarà després de reiniciar HighCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting highcoin.</source>
+        <translation>L&apos;idioma de la interfície d&apos;usuari es pot configurar aquí. Aquesta configuració s&apos;aplicarà després de reiniciar highcoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1261,8 +1261,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show HighCoin addresses in the transaction list or not.</source>
-        <translation>Per mostrar HighCoin adreces a la llista de transaccions o no.</translation>
+        <source>Whether to show highcoin addresses in the transaction list or not.</source>
+        <translation>Per mostrar highcoin adreces a la llista de transaccions o no.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1308,8 +1308,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting HighCoin.</source>
-        <translation>Aquesta configuració s&apos;aplicarà després de reiniciar HighCoin.</translation>
+        <source>This setting will take effect after restarting highcoin.</source>
+        <translation>Aquesta configuració s&apos;aplicarà després de reiniciar highcoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1327,8 +1327,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the HighCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>La informació mostrada pot estar fora de data. El seu moneder es sincronitza automàticament amb la xarxa HighCoin després d&apos;establir una connexió, però aquest procés no s&apos;ha completat encara.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the highcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>La informació mostrada pot estar fora de data. El seu moneder es sincronitza automàticament amb la xarxa highcoin després d&apos;establir una connexió, però aquest procés no s&apos;ha completat encara.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1543,8 +1543,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the HighCoin-Qt help message to get a list with possible HighCoin command-line options.</source>
-        <translation>Mostra el missatge d&apos;ajuda de HighCoin-Qt per obtenir una llista amb les possibles opcions de línia d&apos;ordres HighCoin.</translation>
+        <source>Show the highcoin-Qt help message to get a list with possible highcoin command-line options.</source>
+        <translation>Mostra el missatge d&apos;ajuda de highcoin-Qt per obtenir una llista amb les possibles opcions de línia d&apos;ordres highcoin.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1563,13 +1563,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>HighCoin - Debug window</source>
-        <translation>HighCoin - Finestra Depuració</translation>
+        <source>highcoin - Debug window</source>
+        <translation>highcoin - Finestra Depuració</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>HighCoin Core</source>
-        <translation>Nucli HighCoin</translation>
+        <source>highcoin Core</source>
+        <translation>Nucli highcoin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1578,8 +1578,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the HighCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Obriu el fitxer de registre de depuració HighCoin des del directori de dades actual. Això pot trigar uns segons en els arxius de registre de grans dimensions.</translation>
+        <source>Open the highcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Obriu el fitxer de registre de depuració highcoin des del directori de dades actual. Això pot trigar uns segons en els arxius de registre de grans dimensions.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1588,8 +1588,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the HighCoin RPC console.</source>
-        <translation>Benvingut a la consola RPC de HighCoin.</translation>
+        <source>Welcome to the highcoin RPC console.</source>
+        <translation>Benvingut a la consola RPC de highcoin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1747,8 +1747,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a HighCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introdueix una adreça HighCoin (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a highcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introdueix una adreça highcoin (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1847,8 +1847,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid HighCoin address</source>
-        <translation>ADVERTÈNCIA: Direcció HighCoin invàlida</translation>
+        <source>WARNING: Invalid highcoin address</source>
+        <translation>ADVERTÈNCIA: Direcció highcoin invàlida</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1921,8 +1921,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a HighCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introdueix una adreça HighCoin (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a highcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introdueix una adreça highcoin (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -1982,8 +1982,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this HighCoin address</source>
-        <translation>Signar un missatge per demostrar que és propietari d&apos;aquesta adreça HighCoin</translation>
+        <source>Sign the message to prove you own this highcoin address</source>
+        <translation>Signar un missatge per demostrar que és propietari d&apos;aquesta adreça highcoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2014,8 +2014,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified HighCoin address</source>
-        <translation>Comproveu el missatge per assegurar-se que es va signar amb l&apos;adreça HighCoin especificada.</translation>
+        <source>Verify the message to ensure it was signed with the specified highcoin address</source>
+        <translation>Comproveu el missatge per assegurar-se que es va signar amb l&apos;adreça highcoin especificada.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2025,8 +2025,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a HighCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introdueix una adreça HighCoin (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a highcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introdueix una adreça highcoin (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2035,8 +2035,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter HighCoin signature</source>
-        <translation>Introduïu la signatura HighCoin</translation>
+        <source>Enter highcoin signature</source>
+        <translation>Introduïu la signatura highcoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2606,8 +2606,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>HighCoin version</source>
-        <translation>versió HighCoin</translation>
+        <source>highcoin version</source>
+        <translation>versió highcoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2781,18 +2781,18 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-20"/>
-        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
+        <source>Set maximum size of HIGHT-priority/low-fee transactions in bytes (default: 27000)</source>
         <translation>Establir la grandària màxima de les transaccions alta-prioritat/baixa-comisió en bytes (per defecte: 27000)</translation>
     </message>
     <message>
         <location line="+11"/>
-        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <source>Warning: -paytxfee is set very HIGHT! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>Advertència: el -paytxfee és molt elevat! Aquesta és la comissió de transacció que pagaràs quan enviis una transacció.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong HighCoin will not work properly.</source>
-        <translation>Avís: Comproveu que la data i hora de l&apos;equip siguin correctes! Si el seu rellotge és erroni HighCoin no funcionarà correctament.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong highcoin will not work properly.</source>
+        <translation>Avís: Comproveu que la data i hora de l&apos;equip siguin correctes! Si el seu rellotge és erroni highcoin no funcionarà correctament.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2987,7 +2987,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;HighCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;highcoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, ha d&apos;establir un rpcpassword al fitxer de configuració:
 %s
@@ -2998,7 +2998,7 @@ rpcpassword=%s
 El nom d&apos;usuari i contrasenya NO HA DE SER el mateix.
 Si no hi ha l&apos;arxiu, s&apos;ha de crear amb els permisos de només lectura per al propietari.
 També es recomana establir alertnotify per a que se li notifiquin els problemes;
-per exemple: alertnotify=echo %%s | mail -s &quot;HighCoin Alert&quot; admin@foo.com
+per exemple: alertnotify=echo %%s | mail -s &quot;highcoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3099,8 +3099,8 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+1"/>
-        <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
-        <translation>Xifres acceptables (per defecte: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
+        <source>Acceptable ciphers (default: TLSv1+HIGHT:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
+        <translation>Xifres acceptables (per defecte: TLSv1+HIGHT:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -3124,13 +3124,13 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  HighCoin is probably already running.</source>
-        <translation>No es pot obtenir un bloqueig en el directori de dades %s. HighCoin probablement ja estigui en funcionament.</translation>
+        <source>Cannot obtain a lock on data directory %s.  highcoin is probably already running.</source>
+        <translation>No es pot obtenir un bloqueig en el directori de dades %s. highcoin probablement ja estigui en funcionament.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>HighCoin</source>
-        <translation>HighCoin</translation>
+        <source>highcoin</source>
+        <translation>highcoin</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3164,13 +3164,13 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of HighCoin</source>
-        <translation>Error en carregar wallet.dat: El moneder requereix la versió més recent de HighCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of highcoin</source>
+        <translation>Error en carregar wallet.dat: El moneder requereix la versió més recent de highcoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart HighCoin to complete</source>
-        <translation>El moneder necessita ser reescrita: reiniciar HighCoin per completar</translation>
+        <source>Wallet needed to be rewritten: restart highcoin to complete</source>
+        <translation>El moneder necessita ser reescrita: reiniciar highcoin per completar</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3239,8 +3239,8 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. HighCoin is probably already running.</source>
-        <translation>No es pot enllaçar a %s en aquest equip. HighCoin probablement ja estigui en funcionament.</translation>
+        <source>Unable to bind to %s on this computer. highcoin is probably already running.</source>
+        <translation>No es pot enllaçar a %s en aquest equip. highcoin probablement ja estigui en funcionament.</translation>
     </message>
     <message>
         <location line="-97"/>

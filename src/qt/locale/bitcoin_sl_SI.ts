@@ -3,19 +3,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About HighCoin</source>
-        <translation>O HighCoin</translation>
+        <source>About highcoin</source>
+        <translation>O highcoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;HighCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;HighCoin&lt;/b&gt; verzija</translation>
+        <source>&lt;b&gt;highcoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;highcoin&lt;/b&gt; verzija</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The HighCoin developers</source>
+Copyright © 2014 The highcoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -63,8 +63,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your HighCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>To so vaši HighCoin naslovi za prejemanje plačil. Priporočeno je da vsakemu pošiljatelju namenite drugega in tako dobite večji pregled nad svojimi nakazili.</translation>
+        <source>These are your highcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>To so vaši highcoin naslovi za prejemanje plačil. Priporočeno je da vsakemu pošiljatelju namenite drugega in tako dobite večji pregled nad svojimi nakazili.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -78,8 +78,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a HighCoin address</source>
-        <translation>Podpišite sporočilo, kot dokazilo lastništva HighCoin naslova</translation>
+        <source>Sign a message to prove you own a highcoin address</source>
+        <translation>Podpišite sporočilo, kot dokazilo lastništva highcoin naslova</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -93,8 +93,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified HighCoin address</source>
-        <translation>Potrdi sporočilo, da zagotovite, da je bilo podpisano z izbranim HighCoin naslovom</translation>
+        <source>Verify a message to ensure it was signed with a specified highcoin address</source>
+        <translation>Potrdi sporočilo, da zagotovite, da je bilo podpisano z izbranim highcoin naslovom</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -261,8 +261,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-58"/>
-        <source>HighCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>HighCoin se bo sedaj zaprl, da dokonča proces šifriranje. Pomnite, da tudi šifriranje vaše denarnice ne more v celoti zaščititi vaših kovancev pred krajo z zlonamernimi programi in računalniškimi virusi, če ti okužijo vaš računalnik.</translation>
+        <source>highcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>highcoin se bo sedaj zaprl, da dokonča proces šifriranje. Pomnite, da tudi šifriranje vaše denarnice ne more v celoti zaščititi vaših kovancev pred krajo z zlonamernimi programi in računalniškimi virusi, če ti okužijo vaš računalnik.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -375,8 +375,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about HighCoin</source>
-        <translation>Pokaži informacije o HighCoin</translation>
+        <source>Show information about highcoin</source>
+        <translation>Pokaži informacije o highcoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -425,13 +425,13 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a HighCoin address</source>
-        <translation>Pošlji kovance na HighCoin naslov</translation>
+        <source>Send coins to a highcoin address</source>
+        <translation>Pošlji kovance na highcoin naslov</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for HighCoin</source>
-        <translation>Spremeni nastavitve za HighCoin</translation>
+        <source>Modify configuration options for highcoin</source>
+        <translation>Spremeni nastavitve za highcoin</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -470,8 +470,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-200"/>
-        <source>HighCoin</source>
-        <translation>HighCoin</translation>
+        <source>highcoin</source>
+        <translation>highcoin</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -480,8 +480,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About HighCoin</source>
-        <translation>&amp;O HighCoin</translation>
+        <source>&amp;About highcoin</source>
+        <translation>&amp;O highcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -537,13 +537,13 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>HighCoin client</source>
-        <translation>HighCoin program</translation>
+        <source>highcoin client</source>
+        <translation>highcoin program</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to HighCoin network</source>
-        <translation><numerusform>%n aktivne povezave na HighCoin omrežje</numerusform><numerusform>%n aktivnih povezav na HighCoin omrežje</numerusform><numerusform>%n aktivnih povezav na HighCoin omrežje</numerusform><numerusform>%n aktivnih povezav na HighCoin omrežje</numerusform></translation>
+        <source>%n active connection(s) to highcoin network</source>
+        <translation><numerusform>%n aktivne povezave na highcoin omrežje</numerusform><numerusform>%n aktivnih povezav na highcoin omrežje</numerusform><numerusform>%n aktivnih povezav na highcoin omrežje</numerusform><numerusform>%n aktivnih povezav na highcoin omrežje</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -657,8 +657,8 @@ Naslov: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid HighCoin address or malformed URI parameters.</source>
-        <translation>URI ne more biti razčlenjen! To se lahko zgodi zaradi neveljavnega HighCoin naslova ali slabih parametrov URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid highcoin address or malformed URI parameters.</source>
+        <translation>URI ne more biti razčlenjen! To se lahko zgodi zaradi neveljavnega highcoin naslova ali slabih parametrov URI.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -717,8 +717,8 @@ Naslov: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. HighCoin can no longer continue safely and will quit.</source>
-        <translation>Prišlo je do usodne napake. Program HighCoin se ne more več varno nadaljevati in se bo zato zaprl. </translation>
+        <source>A fatal error occurred. highcoin can no longer continue safely and will quit.</source>
+        <translation>Prišlo je do usodne napake. Program highcoin se ne more več varno nadaljevati in se bo zato zaprl. </translation>
     </message>
 </context>
 <context>
@@ -889,17 +889,17 @@ Naslov: %4
     </message>
     <message>
         <location line="+317"/>
-        <source>highest</source>
+        <source>HIGHTest</source>
         <translation>najvišja</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>high</source>
+        <source>HIGHT</source>
         <translation>visoka</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>medium-high</source>
+        <source>medium-HIGHT</source>
         <translation>srednje visoka</translation>
     </message>
     <message>
@@ -947,7 +947,7 @@ Naslov: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>Transactions with higher priority get more likely into a block.
+        <source>Transactions with HIGHTer priority get more likely into a block.
 
 This label turns red, if the priority is smaller than &quot;medium&quot;.
 
@@ -1051,8 +1051,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid HighCoin address.</source>
-        <translation>Vneseni naslov &quot;%1&quot; ni veljaven HighCoin naslov.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid highcoin address.</source>
+        <translation>Vneseni naslov &quot;%1&quot; ni veljaven highcoin naslov.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1070,8 +1070,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>HighCoin-Qt</source>
-        <translation>HighCoin-Qt</translation>
+        <source>highcoin-Qt</source>
+        <translation>highcoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1143,13 +1143,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start HighCoin after logging in to the system.</source>
-        <translation>Avtomatično zaženi HighCoin ob zagonu sistema.</translation>
+        <source>Automatically start highcoin after logging in to the system.</source>
+        <translation>Avtomatično zaženi highcoin ob zagonu sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start HighCoin on system login</source>
-        <translation>&amp;Zaženi HighCoin ob prijavi v sistem</translation>
+        <source>&amp;Start highcoin on system login</source>
+        <translation>&amp;Zaženi highcoin ob prijavi v sistem</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1168,8 +1168,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the HighCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avtomatično odpri vrata na routerju za HighCoin program. To deluje le če vaš router podpira UPnP in je ta omogočen. </translation>
+        <source>Automatically open the highcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avtomatično odpri vrata na routerju za highcoin program. To deluje le če vaš router podpira UPnP in je ta omogočen. </translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1178,8 +1178,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the HighCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Poveži se na HighCoin omrežje skozi SOCKS proxy (npr. ko se povezujete prek Tora)</translation>
+        <source>Connect to the highcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Poveži se na highcoin omrežje skozi SOCKS proxy (npr. ko se povezujete prek Tora)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1253,8 +1253,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting HighCoin.</source>
-        <translation>Tu lahko nastavite jezik uporabniškega vmesnika. Nastavitve bodo pričele delovati ob ponovnem zagonu HighCoin aplikacije. </translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting highcoin.</source>
+        <translation>Tu lahko nastavite jezik uporabniškega vmesnika. Nastavitve bodo pričele delovati ob ponovnem zagonu highcoin aplikacije. </translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1268,8 +1268,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show HighCoin addresses in the transaction list or not.</source>
-        <translation>Izbira prikaza HighCoin naslovov v seznamu transakcij.</translation>
+        <source>Whether to show highcoin addresses in the transaction list or not.</source>
+        <translation>Izbira prikaza highcoin naslovov v seznamu transakcij.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1315,8 +1315,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting HighCoin.</source>
-        <translation>Ta nastavitev bo pričela delovati ob ponovnem zagonu HighCoin aplikacije</translation>
+        <source>This setting will take effect after restarting highcoin.</source>
+        <translation>Ta nastavitev bo pričela delovati ob ponovnem zagonu highcoin aplikacije</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1334,8 +1334,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the HighCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z HighCoin omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the highcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z highcoin omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1550,8 +1550,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the HighCoin-Qt help message to get a list with possible HighCoin command-line options.</source>
-        <translation>Prikaži HighCoin-Qt sporočilo za pomoč , ki prikaže vse možnosti ukazne vrstice HighCoin aplikacije</translation>
+        <source>Show the highcoin-Qt help message to get a list with possible highcoin command-line options.</source>
+        <translation>Prikaži highcoin-Qt sporočilo za pomoč , ki prikaže vse možnosti ukazne vrstice highcoin aplikacije</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1570,13 +1570,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>HighCoin - Debug window</source>
-        <translation>HighCoin - okno za odpravljanje napak</translation>
+        <source>highcoin - Debug window</source>
+        <translation>highcoin - okno za odpravljanje napak</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>HighCoin Core</source>
-        <translation>HighCoin jedro</translation>
+        <source>highcoin Core</source>
+        <translation>highcoin jedro</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1585,8 +1585,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the HighCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Odpri HighCoin datoteko zapisov odpravljanja napak iz trenutnega direktorija podatkov. Če so datoteke zapisov velike, to lahko traja nekaj sekund.</translation>
+        <source>Open the highcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Odpri highcoin datoteko zapisov odpravljanja napak iz trenutnega direktorija podatkov. Če so datoteke zapisov velike, to lahko traja nekaj sekund.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1595,8 +1595,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the HighCoin RPC console.</source>
-        <translation>Dobrodošli v HighCoin RPC konzoli.</translation>
+        <source>Welcome to the highcoin RPC console.</source>
+        <translation>Dobrodošli v highcoin RPC konzoli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1754,8 +1754,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a HighCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Vnesite HighCoin naslov (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a highcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Vnesite highcoin naslov (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1854,8 +1854,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid HighCoin address</source>
-        <translation>OPOZORILO: Neveljaven HighCoin naslov</translation>
+        <source>WARNING: Invalid highcoin address</source>
+        <translation>OPOZORILO: Neveljaven highcoin naslov</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1928,8 +1928,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a HighCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Vnesite HighCoin naslov (npr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a highcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Vnesite highcoin naslov (npr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -1989,8 +1989,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this HighCoin address</source>
-        <translation>Podpišite sporočilo, kot dokazilo lastništva HighCoin naslova</translation>
+        <source>Sign the message to prove you own this highcoin address</source>
+        <translation>Podpišite sporočilo, kot dokazilo lastništva highcoin naslova</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2021,8 +2021,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified HighCoin address</source>
-        <translation>Potrdite sporočilo, da zagotovite, da je bilo podpisano z izbranim HighCoin naslovom</translation>
+        <source>Verify the message to ensure it was signed with the specified highcoin address</source>
+        <translation>Potrdite sporočilo, da zagotovite, da je bilo podpisano z izbranim highcoin naslovom</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2032,8 +2032,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a HighCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Vnesite HighCoin naslov (npr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a highcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Vnesite highcoin naslov (npr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2042,8 +2042,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter HighCoin signature</source>
-        <translation>Vnesite HighCoin podpis</translation>
+        <source>Enter highcoin signature</source>
+        <translation>Vnesite highcoin podpis</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2613,8 +2613,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>HighCoin version</source>
-        <translation>HighCoin različica</translation>
+        <source>highcoin version</source>
+        <translation>highcoin različica</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2788,18 +2788,18 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="-20"/>
-        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
+        <source>Set maximum size of HIGHT-priority/low-fee transactions in bytes (default: 27000)</source>
         <translation>Nastavi maksimalno velikost visoke-prioritete/nizke-provizije transakcij v bajtih (privzeto: 27000)</translation>
     </message>
     <message>
         <location line="+11"/>
-        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <source>Warning: -paytxfee is set very HIGHT! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>Opozorilo: -paytxfee je nastavljen zelo visoko! To je transakcijska provizija, ki jo boste plačali ob pošiljanju transakcije.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong HighCoin will not work properly.</source>
-        <translation>Opozorilo: Prosimo preverite svoj datum in čas svojega računalnika! Če je vaša ura nastavljena napačno HighCoin ne bo deloval.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong highcoin will not work properly.</source>
+        <translation>Opozorilo: Prosimo preverite svoj datum in čas svojega računalnika! Če je vaša ura nastavljena napačno highcoin ne bo deloval.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2994,7 +2994,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;HighCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;highcoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, nastaviti morate rpcgeslo v konfiguracijski datoteki: 
  %s
@@ -3005,7 +3005,7 @@ rpcpassword=%s
 Uporabniško ime in geslo NE SMETA biti ista. 
 Če datoteka ne obstaja, jo ustvarite z lastniškimi dovoljenji za datoteke. 
 Prav tako je priporočeno, da nastavite alernotify, tkako da vas opozori na probleme;
-na primer: alertnotify=echo %%s | mail -s &quot;HighCoin Alarm&quot; admin@foo.com
+na primer: alertnotify=echo %%s | mail -s &quot;highcoin Alarm&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3105,8 +3105,8 @@ na primer: alertnotify=echo %%s | mail -s &quot;HighCoin Alarm&quot; admin@foo.c
     </message>
     <message>
         <location line="+1"/>
-        <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
-        <translation>Dovoljeni kodirniki (privzeti: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
+        <source>Acceptable ciphers (default: TLSv1+HIGHT:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
+        <translation>Dovoljeni kodirniki (privzeti: TLSv1+HIGHT:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -3130,13 +3130,13 @@ na primer: alertnotify=echo %%s | mail -s &quot;HighCoin Alarm&quot; admin@foo.c
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  HighCoin is probably already running.</source>
-        <translation>Ni bilo mogoče najti podatkovnega imenika %s. Aplikacija HighCoin je verjetno že zagnana.</translation>
+        <source>Cannot obtain a lock on data directory %s.  highcoin is probably already running.</source>
+        <translation>Ni bilo mogoče najti podatkovnega imenika %s. Aplikacija highcoin je verjetno že zagnana.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>HighCoin</source>
-        <translation>HighCoin</translation>
+        <source>highcoin</source>
+        <translation>highcoin</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3170,13 +3170,13 @@ na primer: alertnotify=echo %%s | mail -s &quot;HighCoin Alarm&quot; admin@foo.c
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of HighCoin</source>
-        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo verzijo HighCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of highcoin</source>
+        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo verzijo highcoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart HighCoin to complete</source>
-        <translation>Denarnica mora biti prepisana: ponovno odprite HighCoin za dokončanje</translation>
+        <source>Wallet needed to be rewritten: restart highcoin to complete</source>
+        <translation>Denarnica mora biti prepisana: ponovno odprite highcoin za dokončanje</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3245,8 +3245,8 @@ na primer: alertnotify=echo %%s | mail -s &quot;HighCoin Alarm&quot; admin@foo.c
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. HighCoin is probably already running.</source>
-        <translation>Navezava v %s  na tem računalniku ni mogoča HighCoin aplikacija je verjetno že zagnana.</translation>
+        <source>Unable to bind to %s on this computer. highcoin is probably already running.</source>
+        <translation>Navezava v %s  na tem računalniku ni mogoča highcoin aplikacija je verjetno že zagnana.</translation>
     </message>
     <message>
         <location line="-97"/>

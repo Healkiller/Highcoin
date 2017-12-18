@@ -40,9 +40,9 @@ CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // "standard" scrypt target limit
 CBigNum bnProofOfStakeLimit(~uint256(0) >> 20);
 CBigNum bnProofOfWorkLimitTestNet(~uint256(0) >> 16);
 
-unsigned int nTargetSpacing = 60; // 1min
-unsigned int nTargetSpacing_v2 = 2 * 60; //2 minute
-unsigned int nStakeMinAge = 60 * 60 * 2; //2h
+unsigned int nTargetSpacing = 60 * 2; // 2 minute
+unsigned int nTargetSpacing_v2 = 3 * 60; //3 minute
+unsigned int nStakeMinAge = 60 * 60 * 12; //12h
 unsigned int nStakeMaxAge = -1; // unlimited
 unsigned int nModifierInterval = 10 * 60; // time to elapse before new modifier is computed
 
@@ -69,7 +69,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "RushCoin Signed Message:\n";
+const string strMessageMagic = "highcoin Signed Message:\n";
 
 // Settings
 int64_t nTransactionFee = MIN_TX_FEE;
@@ -537,7 +537,7 @@ bool CTransaction::CheckTransaction() const
         if (txout.nValue < 0)
             return DoS(100, error("CTransaction::CheckTransaction() : txout.nValue negative"));
         if (txout.nValue > MAX_MONEY)
-            return DoS(100, error("CTransaction::CheckTransaction() : txout.nValue too high"));
+            return DoS(100, error("CTransaction::CheckTransaction() : txout.nValue too HIGHT"));
         nValueOut += txout.nValue;
         if (!MoneyRange(nValueOut))
             return DoS(100, error("CTransaction::CheckTransaction() : txout total out of range"));
@@ -1006,33 +1006,42 @@ int64_t GetProofOfWorkReward(int nHeight, int64_t nFees)
 
             if(nBestHeight == 0)
             {
-            nSubsidy = 15000000 * COIN;
+            nSubsidy = 210000 * COIN; //premine for swap
 			}
-            else if(nBestHeight <= 100)
+            else if(nBestHeight <= 1000)
             {
             nSubsidy = 0 * COIN;
             }
 
             else if(nBestHeight <= 2000)
             {
-            nSubsidy = 50 * COIN;
+            nSubsidy = 5 * COIN;
             }
 
             else if(nBestHeight <= 4000)
             {
-            nSubsidy = 100 * COIN;
+            nSubsidy = 20 * COIN;
             }
 
             else if(nBestHeight <= 20000)
             {
-            nSubsidy = 80 * COIN;
+            nSubsidy = 10 * COIN;
             }
 			
 			  else if(nBestHeight <= 40000)
             {
-            nSubsidy =  50 * COIN;
+            nSubsidy =  15 * COIN;
             }
 			
+			  else if(nBestHeight <= 100000)
+            {
+            nSubsidy =  5 * COIN;
+            }
+			 else
+            {
+            nSubsidy = nSubsidy;
+            }
+
 			 
 
     if (fDebug && GetBoolArg("-printcreation"))
@@ -1046,95 +1055,209 @@ int64_t GetProofOfStakeReward(int nHeight, int64_t nCoinAge, int64_t nFees)
 {
     int64_t nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 8);
 
-                  if(nBestHeight <= 1000) 
+                 if(nBestHeight <= 1000) 
             {
-            	nSubsidy = nCoinAge * COIN_YEAR_REWARD * 3300000 / (365 * 33 + 8);   //0.06% 
+            	 nSubsidy >>= nSubsidy /100000;  //no substantial pos reward until block 1k
             }
-			else if(nBestHeight <= 20000)
+			else if(nBestHeight <= 5000)
 			 {
-				 nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 8);   //6000% 
+				 nSubsidy = nSubsidy * 30 ;  //3000%
 			 }
 			 
-			 	else if(nBestHeight <= 25000)
+			    else if(nBestHeight <= 10000)
 			 {
-				 nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 8) * 2;   //1200% 
+				 nSubsidy = nSubsidy * 60 ;  //6000% 
 			 }
 			 
-			 else if(nBestHeight <= 27000)
+			 	else if(nBestHeight <= 11000)
 			 {
-				 nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 365 * 33 + 8);   //Orphanbug
+				 nSubsidy = nSubsidy * 120 ;  //12000% 
 			 }
 			 
-			 	else if(nBestHeight <= 60000)
+			  	else if(nBestHeight <= 15000)
 			 {
-				 nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 8);   //6000% Pos back
+				 nSubsidy = nSubsidy * 60 ;  //6000%
 			 }
 			 
-			 	else if(nBestHeight <= 65000)
+			  	else if(nBestHeight <= 30000)
 			 {
-				 nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 8) * 2;   //12000% 
+				 nSubsidy = nSubsidy * 30 ;  //3000%
 			 }
 			 
-			  	else if(nBestHeight <= 105000)
+			  	else if(nBestHeight <= 60000)
 			 {
-				 nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 8);   //6000% 
+				 nSubsidy = nSubsidy * 15 ;  //1500%
 			 }
 			 
-			  	else if(nBestHeight <= 110000)
+			   	else if(nBestHeight <= 62000)
 			 {
-				 nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 8) * 2;   //12000% 
+				 nSubsidy = nSubsidy * 30 ;  //3000%
 			 }
 			 
-			   	else if(nBestHeight <= 170000)
+			 else if(nBestHeight <= 63000)
 			 {
-				 nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 8);   //6000% 
+				 nSubsidy = nSubsidy * 60 ;  //6000%
 			 }
 			 
-			  	else if(nBestHeight <= 175000)
+			 else if(nBestHeight <= 65000)
 			 {
-				 nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 8) * 2;   //12000% 
+				 nSubsidy = nSubsidy * 30 ;  //3000%
 			 }
 			 
-			   	else if(nBestHeight <= 210000)
+			 else if(nBestHeight <= 70000)
 			 {
-				 nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 8);   //6000% 
+				 nSubsidy = nSubsidy * 15 ;  //1500%
 			 }
 			 
-			   	else if(nBestHeight <= 215000)
+			 else if(nBestHeight <= 120000)
 			 {
-				 nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 8) * 2;   //12000% 
+				 nSubsidy = nSubsidy * 7.5 ;  //750%
 			 }
 			 
-			  	else if(nBestHeight <= 300000)
+			  else if(nBestHeight <= 140000)
 			 {
-				 nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 8);   //6000% 
+				 nSubsidy = nSubsidy * 5 ;  //500%
 			 }
 			 
-			    	else if(nBestHeight <= 301000)
+			  else if(nBestHeight <= 150000)
 			 {
-				 nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 8) * 2;   //12000% 
+				 nSubsidy = nSubsidy * 7.5 ;  //750%
 			 }
 			 
-			 	  	else if(nBestHeight <= 400000)
+			 
+			  else if(nBestHeight <= 170000)
 			 {
-				 nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 8);   //6000% 
+				 nSubsidy = nSubsidy * 15 ;  //1500%
 			 }
 			 
-			    	else if(nBestHeight <= 410000)
+			 else if(nBestHeight <= 200000)
 			 {
-				 nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 8) * 2;   //12000% 
+				 nSubsidy = nSubsidy * 30 ;  //3000%
 			 }
 			 
-			 	 	  	else if(nBestHeight <= 600000)
+			 else if(nBestHeight <= 210000)
 			 {
-				 nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 8);   //6000% 
+				 nSubsidy = nSubsidy * 60 ;  //6000%
 			 }
 			 
-	        else
-            {
-            nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (36500 * 33 + 8);   ;  //60%
-            }
-
+			  else if(nBestHeight <= 211000)
+			 {
+				 nSubsidy = nSubsidy * 120 ;  //12000% 1000 blocks
+			 }
+			 
+			 else if(nBestHeight <= 220000)
+			 {
+				 nSubsidy = nSubsidy * 60 ;  //6000%
+			 }
+			 
+			  else if(nBestHeight <= 240000)
+			 {
+				 nSubsidy = nSubsidy * 30 ;  //3000%
+			 }
+			 
+			  else if(nBestHeight <= 270000)
+			 {
+				 nSubsidy = nSubsidy * 15 ;  //1500%
+			 }
+			 
+			 else if(nBestHeight <= 330000)
+			 {
+				 nSubsidy = nSubsidy * 7.5 ;  //750%
+			 }
+			 
+			 else if(nBestHeight <= 350000)
+			 {
+				 nSubsidy = nSubsidy * 15 ;  //1500%
+			 }
+			
+			 else if(nBestHeight <= 370000)
+			 {
+				 nSubsidy = nSubsidy * 30 ;  //3000%
+			 }
+			 
+			  else if(nBestHeight <= 380000)
+			 {
+				 nSubsidy = nSubsidy * 60 ;  //6000%
+			 }
+			 
+			   else if(nBestHeight <= 381000)
+			 {
+				 nSubsidy = nSubsidy * 120 ;  //12000% 1000 blocks
+			 }
+			 
+			   else if(nBestHeight <= 382000)
+			 {
+				 nSubsidy = nSubsidy * 60 ;  //6000% 1000 blocks
+			 }
+			 
+			  else if(nBestHeight <= 385000)
+			 {
+				 nSubsidy = nSubsidy * 30 ;  //3000% 
+			 }
+			 
+			  else if(nBestHeight <= 400000)
+			 {
+				 nSubsidy = nSubsidy * 15 ;  //1500% 
+			 }
+			 
+			  else if(nBestHeight <= 600000)
+			 {
+				 nSubsidy = nSubsidy * 5 ;  //500% 
+			 }
+			 
+			   else if(nBestHeight <= 610000)
+			 {
+				 nSubsidy = nSubsidy * 10 ;  //1000% 
+			 }
+			 
+			  else if(nBestHeight <= 620000)
+			 {
+				 nSubsidy = nSubsidy * 20 ;  //2000% 
+			 }
+			 
+			  else if(nBestHeight <= 630000)
+			 {
+				 nSubsidy = nSubsidy * 30 ;  //3000% 
+			 }
+			 
+			   else if(nBestHeight <= 635000)
+			 {
+				 nSubsidy = nSubsidy * 60 ;  //6000% 
+			 }
+			  
+			   else if(nBestHeight <= 640000)
+			 {
+				 nSubsidy = nSubsidy * 120 ;  //12000% Last 5000 superblocks
+			 }
+			 
+			 else if(nBestHeight <= 650000)
+			 {
+				 nSubsidy = nSubsidy * 60 ;  //6000%
+			 }
+			 
+			  else if(nBestHeight <= 700000)
+			 {
+				 nSubsidy = nSubsidy * 30 ;  //3000%
+			 }
+			 
+			   else if(nBestHeight <= 800000)
+			 {
+				 nSubsidy = nSubsidy * 15 ;  //1500%
+			 }
+			 
+			  else if(nBestHeight <= 900000)
+			 {
+				 nSubsidy = nSubsidy * 7.5 ;  //750%
+			 }
+	
+			  else if(nBestHeight <= 1000000)
+			 {
+				 nSubsidy = nSubsidy * 5 ;  //500%
+			 }
+			   else
+			{
+			 nSubsidy = nSubsidy * 2 ;  //200%
+			}
 
     if (fDebug && GetBoolArg("-printcreation"))
         printf("GetProofOfStakeReward(): create=%s nCoinAge=%"PRId64"\n", FormatMoney(nSubsidy).c_str(), nCoinAge);
@@ -2561,7 +2684,7 @@ bool CheckDiskSpace(uint64_t nAdditionalBytes)
         string strMessage = _("Warning: Disk space is low!");
         strMiscWarning = strMessage;
         printf("*** %s\n", strMessage.c_str());
-        uiInterface.ThreadSafeMessageBox(strMessage, "HighCoin", CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION | CClientUIInterface::MODAL);
+        uiInterface.ThreadSafeMessageBox(strMessage, "highcoin", CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION | CClientUIInterface::MODAL);
         StartShutdown();
         return false;
     }
@@ -2623,10 +2746,10 @@ bool LoadBlockIndex(bool fAllowNew)
 
     if (fTestNet)
     {
-        pchMessageStart[0] = 0x45;
-        pchMessageStart[1] = 0xec;
-        pchMessageStart[2] = 0x2d;
-        pchMessageStart[3] = 0x4c;
+        pchMessageStart[0] = 0x25;
+        pchMessageStart[1] = 0xfc;
+        pchMessageStart[2] = 0x4d;
+        pchMessageStart[3] = 0x2c;
 
         bnTrustedModulus.SetHex("f0d14cf72623dacfe738d0892b599be0f31052239cddd95a3f25101c801dc990453b38c9434efe3f372db39a32c2bb44cbaea72d62c8931fa785b0ec44531308df3e46069be5573e49bb29f4d479bfc3d162f57a5965db03810be7636da265bfced9c01a6b0296c77910ebdc8016f70174f0f18a57b3b971ac43a934c6aedbc5c866764a3622b5b7e3f9832b8b3f133c849dbcc0396588abcd1e41048555746e4823fb8aba5b3d23692c6857fccce733d6bb6ec1d5ea0afafecea14a0f6f798b6b27f77dc989c557795cc39a0940ef6bb29a7fc84135193a55bcfc2f01dd73efad1b69f45a55198bd0e6bef4d338e452f6a420f1ae2b1167b923f76633ab6e55");
         bnProofOfWorkLimit = bnProofOfWorkLimitTestNet; // 16 bits PoW target limit for testnet
@@ -2665,9 +2788,9 @@ bool LoadBlockIndex(bool fAllowNew)
 
 
 
-        const char* pszTimestamp = "Highcoin - Lets STAKE";
+        const char* pszTimestamp = "highcoin - Lets stake HIGHT";
         CTransaction txNew;
-        txNew.nTime = 1512518448;
+        txNew.nTime = 1513522426;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
@@ -2677,11 +2800,11 @@ bool LoadBlockIndex(bool fAllowNew)
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1512518448;
+        block.nTime    = 1513522426;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
-        block.nNonce   = !fTestNet ? 116238 : 116238;
+        block.nNonce   = !fTestNet ? 2308846 : 2308846;
         
-        if (false  && (block.GetHash() != hashGenesisBlock)) {
+        if (true  && (block.GetHash() != hashGenesisBlock)) {
 
                 // This will figure out a valid hash and Nonce if you're
                 // creating a different genesis block:
@@ -2705,7 +2828,7 @@ bool LoadBlockIndex(bool fAllowNew)
         printf("block.nTime = %u \n", block.nTime);
         printf("block.nNonce = %u \n", block.nNonce);
                 
-        assert(block.hashMerkleRoot == uint256("0x8b567720b32a74d5f1c546499944b445ea849e38c81d5158711b7dd49efa33c3"));
+        assert(block.hashMerkleRoot == uint256("0x7b919c09ce855f4b54ae01abc0dd15916d79f2356cc43b346fe9422f9e55038c"));
         assert(block.GetHash() == (!fTestNet ? hashGenesisBlock : hashGenesisBlockTestNet));
         assert(block.CheckBlock());
 

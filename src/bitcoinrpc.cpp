@@ -42,7 +42,7 @@ void ThreadRPCServer3(void* parg);
 
 static inline unsigned short GetDefaultRPCPort()
 {
-    return GetBoolArg("-testnet", false) ? 43356 : 43356;
+    return GetBoolArg("-testnet", false) ? 43357 : 43357;
 }
 
 Object JSONRPCError(int code, const string& message)
@@ -208,10 +208,10 @@ Value stop(const Array& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "Stop HighCoin server.");
+            "Stop highcoin server.");
     // Shutdown will take long enough that the response should get back
     StartShutdown();
-    return "HighCoin server stopping";
+    return "highcoin server stopping";
 }
 
 
@@ -774,7 +774,7 @@ void ThreadRPCServer2(void* parg)
               "The username and password MUST NOT be the same.\n"
               "If the file does not exist, create it with owner-readable-only file permissions.\n"
               "It is also recommended to set alertnotify so you are notified of problems;\n"
-              "for example: alertnotify=echo %%s | mail -s \"HighCoin Alert\" admin@foo.com\n"),
+              "for example: alertnotify=echo %%s | mail -s \"highcoin Alert\" admin@foo.com\n"),
                 strWhatAmI.c_str(),
                 GetConfigFile().string().c_str(),
                 EncodeBase58(&rand_pwd[0],&rand_pwd[0]+32).c_str()),
@@ -802,7 +802,7 @@ void ThreadRPCServer2(void* parg)
         if (filesystem::exists(pathPKFile)) context.use_private_key_file(pathPKFile.string(), ssl::context::pem);
         else printf("ThreadRPCServer ERROR: missing server private key file %s\n", pathPKFile.string().c_str());
 
-        string strCiphers = GetArg("-rpcsslciphers", "TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH");
+        string strCiphers = GetArg("-rpcsslciphers", "TLSv1+HIGHT:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH");
         SSL_CTX_set_cipher_list(context.impl(), strCiphers.c_str());
     }
 

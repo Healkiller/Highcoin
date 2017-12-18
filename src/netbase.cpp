@@ -840,7 +840,7 @@ std::vector<unsigned char> CNetAddr::GetGroup() const
         nClass = NET_UNROUTABLE;
         nBits = 0;
     }
-    // for IPv4 addresses, '1' + the 16 higher-order bits of the IP
+    // for IPv4 addresses, '1' + the 16 HIGHTer-order bits of the IP
     // includes mapped IPv4, SIIT translated IPv4, and the well-known prefix
     else if (IsIPv4() || IsRFC6145() || IsRFC6052())
     {
