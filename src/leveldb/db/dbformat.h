@@ -46,7 +46,7 @@ static const int kReadBytesPeriod = 1048576;
 class InternalKey;
 
 // Value types encoded as the last component of internal keys.
-// DO NOT CHANGE THESE ENUM VALUES: they are embedded in the on-disk
+// DO NOT CHANGE THESE ENUM VALUES: they are highcoinedded in the on-disk
 // data structures.
 enum ValueType {
   kTypeDeletion = 0x0,
@@ -55,7 +55,7 @@ enum ValueType {
 // kValueTypeForSeek defines the ValueType that should be passed when
 // constructing a ParsedInternalKey object for seeking to a particular
 // sequence number (since we sort sequence numbers in decreasing order
-// and the value type is embedded as the low 8 bits in the sequence
+// and the value type is highcoinedded as the low 8 bits in the sequence
 // number in internal keys, we need to use the highest-numbered
 // ValueType, not the lowest).
 static const ValueType kValueTypeForSeek = kTypeValue;

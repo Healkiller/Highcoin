@@ -116,8 +116,8 @@ void AskPassphraseDialog::accept()
                 {
                     QMessageBox::warning(this, tr("Wallet encrypted"),
                                          "<qt>" + 
-                                         tr("highcoin will close now to finish the encryption process. "
-                                         "Remember that encrypting your wallet cannot fully protect "
+                                         tr("Hight will close now to finish the encryption process. "
+                                         "Remhighcoin that encrypting your wallet cannot fully protect "
                                          "your coins from being stolen by malware infecting your computer.") + 
                                          "<br><br><b>" + 
                                          tr("IMPORTANT: Any previous backups you have made of your wallet file "

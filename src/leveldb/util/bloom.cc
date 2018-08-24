@@ -45,7 +45,7 @@ class BloomFilterPolicy : public FilterPolicy {
 
     const size_t init_size = dst->size();
     dst->resize(init_size + bytes, 0);
-    dst->push_back(static_cast<char>(k_));  // Remember # of probes in filter
+    dst->push_back(static_cast<char>(k_));  // Remhighcoin # of probes in filter
     char* array = &(*dst)[init_size];
     for (size_t i = 0; i < n; i++) {
       // Use double-hashing to generate a sequence of hash values.

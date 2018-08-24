@@ -10,7 +10,7 @@
 #   PLATFORM_LIBS               Libraries flags
 #   PLATFORM_SHARED_EXT         Extension for shared libraries
 #   PLATFORM_SHARED_LDFLAGS     Flags for building shared library
-#                               This flag is embedded just before the name
+#                               This flag is highcoinedded just before the name
 #                               of the shared library without intervening spaces
 #   PLATFORM_SHARED_CFLAGS      Flags for compiling objects for shared library
 #   PLATFORM_CCFLAGS            C compiler flags

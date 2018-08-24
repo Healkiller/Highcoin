@@ -28,7 +28,8 @@ namespace json_spirit
     template< class String_type >
     String_type non_printable_to_string( unsigned int c )
     {
-        typedef typename String_type::value_type Char_type;
+        // Silence the warning: typedef ‘Char_type’ locally defined but not used [-Wunused-local-typedefs]
+        // typedef typename String_type::value_type Char_type;
 
         String_type result( 6, '\\' );
 
@@ -101,7 +102,7 @@ namespace json_spirit
         typedef typename Config_type::Object_type Object_type;
         typedef typename Config_type::Array_type Array_type;
         typedef typename String_type::value_type Char_type;
-        typedef typename Object_type::value_type Obj_member_type;
+        typedef typename Object_type::value_type Obj_mhighcoin_type;
 
     public:
 
@@ -144,11 +145,11 @@ namespace json_spirit
             output_array_or_obj( arr, '[', ']' );
         }
 
-        void output( const Obj_member_type& member )
+        void output( const Obj_mhighcoin_type& mhighcoin )
         {
-            output( Config_type::get_name( member ) ); space(); 
+            output( Config_type::get_name( mhighcoin ) ); space(); 
             os_ << ':'; space(); 
-            output( Config_type::get_value( member ) );
+            output( Config_type::get_value( mhighcoin ) );
         }
 
         void output_int( const Value_type& value )

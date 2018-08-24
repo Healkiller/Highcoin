@@ -61,7 +61,7 @@ the young level to the largest level using only bulk reads and writes
 <p>
 A MANIFEST file lists the set of sorted tables that make up each
 level, the corresponding key ranges, and other important metadata.
-A new MANIFEST file (with a new number embedded in the file name)
+A new MANIFEST file (with a new number highcoinedded in the file name)
 is created whenever the database is reopened.  The MANIFEST file is
 formatted as a log, and changes made to the serving state (as files
 are added or removed) are appended to this log.
@@ -121,7 +121,7 @@ state.
 
 <p>
 Compactions for a particular level rotate through the key space.  In
-more detail, for each level L, we remember the ending key of the last
+more detail, for each level L, we remhighcoin the ending key of the last
 compaction at level L.  The next compaction for level L will pick the
 first file that starts after this key (wrapping around to the
 beginning of the key space if there is no such file).

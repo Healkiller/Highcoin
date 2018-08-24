@@ -1,6 +1,6 @@
 Name NovaCoin
 
-RequestExecutionLevel HIGHTTest
+RequestExecutionLevel highest
 SetCompressor /SOLID lzma
 
 # General Symbol Definitions

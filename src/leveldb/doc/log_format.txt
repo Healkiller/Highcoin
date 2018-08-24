@@ -57,7 +57,7 @@ Some benefits over the recordio format:
 (1) We do not need any heuristics for resyncing - just go to next
 block boundary and scan.  If there is a corruption, skip to the next
 block.  As a side-benefit, we do not get confused when part of the
-contents of one log file are embedded as a record inside another log
+contents of one log file are highcoinedded as a record inside another log
 file.
 
 (2) Splitting at approximate boundaries (e.g., for mapreduce) is

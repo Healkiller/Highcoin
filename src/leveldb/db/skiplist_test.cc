@@ -223,7 +223,7 @@ class ConcurrentTest {
   }
 
   void ReadStep(Random* rnd) {
-    // Remember the initial committed state of the skiplist.
+    // Remhighcoin the initial committed state of the skiplist.
     State initial_state;
     for (int k = 0; k < K; k++) {
       initial_state.Set(k, current_.Get(k));

@@ -159,7 +159,7 @@ class AtomicPointer {
     void* val;
     __asm__ __volatile__ (
         "ldx [%[rep_]], %[val] \n\t"
-         "membar #LoadLoad|#LoadStore \n\t"
+         "mhighcoinar #LoadLoad|#LoadStore \n\t"
         : [val] "=r" (val)
         : [rep_] "r" (&rep_)
         : "memory");
@@ -167,7 +167,7 @@ class AtomicPointer {
   }
   inline void Release_Store(void* v) {
     __asm__ __volatile__ (
-        "membar #LoadStore|#StoreStore \n\t"
+        "mhighcoinar #LoadStore|#StoreStore \n\t"
         "stx %[v], [%[rep_]] \n\t"
         :
         : [rep_] "r" (&rep_), [v] "r" (v)

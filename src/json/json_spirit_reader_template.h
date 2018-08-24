@@ -459,11 +459,11 @@ namespace json_spirit
 
                 object_ 
                     = ch_p('{')[ begin_obj ]
-                    >> !members_
+                    >> !mhighcoins_
                     >> ( ch_p('}')[ end_obj ] | eps_p[ &throw_not_object ] )
                     ;
 
-                members_
+                mhighcoins_
                     = pair_ >> *( ',' >> pair_ )
                     ;
 
@@ -502,7 +502,7 @@ namespace json_spirit
                     ;
             }
 
-            spirit_namespace::rule< ScannerT > json_, object_, members_, pair_, array_, elements_, value_, string_, number_;
+            spirit_namespace::rule< ScannerT > json_, object_, mhighcoins_, pair_, array_, elements_, value_, string_, number_;
 
             const spirit_namespace::rule< ScannerT >& start() const { return json_; }
         };

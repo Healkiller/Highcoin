@@ -38,7 +38,7 @@ BOOST_AUTO_TEST_SUITE(bignum_tests)
 //
 // "IOC: An Integer Overflow Checker for C/C++"
 //
-// Available at: http://embed.cs.utah.edu/ioc/
+// Available at: http://highcoined.cs.utah.edu/ioc/
 //
 // It might also be useful to use Google's AddressSanitizer to detect
 // stack buffer overruns, which valgrind can't currently detect.
